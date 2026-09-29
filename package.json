@@ -1,0 +1,14 @@
+{
+  "name": "venkyram-canteen-app",
+  "version": "1.0.0",
+  "description": "Full-stack College Canteen Application (Single URL Express + React)",
+  "scripts": {
+    "start": "node start-portal.js",
+    "portal": "node start-portal.js",
+    "build": "cd React && npm run build",
+    "seed": "cd React/Backend && node seed.js",
+    "server": "cd React/Backend && node server.js",
+    "dev:backend": "cd React/Backend && npm start",
+    "dev:frontend": "cd React && npm run dev"
+  }
+}
